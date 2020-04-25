@@ -2,17 +2,11 @@
 $(document).ready(function(){
 
     $('#btnSubmit').on('click', function(){
-
         var searchValue = $('#inputSeach').val();
         $('#inputSeach').val('')
         getCity(searchValue)
     });
-
-
-
-
 });
-
 
 function getCity(searchValue){
     $.ajax({
@@ -29,12 +23,9 @@ function getCity(searchValue){
                 alert('City Not Found, please try again')
                 $('#inputSeach').focus();
             }
-          
-
         }
     })
 }
-
 function getRestaurant(lon, lat){
     $.ajax({
         url: `https://developers.zomato.com/api/v2.1/search?lon=${lon}&lat=${lat}`,
@@ -47,16 +38,15 @@ function getRestaurant(lon, lat){
             $('#searchResults').empty();
             //process the JSON data etc
             if(data.restaurants.length > 0){
-
-   
-            
-               data.restaurants.forEach(res => {
+                data.restaurants.forEach(res => {
                 var col =  $('<div class="col s6 m4 l3">').css({
                     "min-height": "459px",
                     "max-height": "460px",
                     "overflow-y": "scroll"
                 });
-                var card = $('<div class="card blue-grey darken-1">');
+                var card = $('<div class="card blue-grey darken-1">').css({
+                    "overflow": "hidden",
+                });
                 var content = $('<div class="card-content white-text">');
                  var name = $('<span class="card-title">').text(res.restaurant.name);
                  var img  = $('<img>').attr("src", res.restaurant.featured_image || defaultImg).css({
@@ -64,19 +54,8 @@ function getRestaurant(lon, lat){
                      "min-width": "250px",
                      "min-height": "199px",
                      "max-height": "200px"
-                    /* function imgOption(){
-                        var imgAlternative= $('<img>').attr("src", ./images/foodoption.jpg ).css({
-                        "max-width": "270px",
-                        "min-width": "250px",
-                        "min-height": "199px",
-                        "max-height": "200px"
-                    if(res.restaurant.featured_image.length = false){
-                    }else{
-                        return imgAlternative
-                    }
-                }
-                    */ 
-                 });
+                    
+                    });
                 var cuisinesIcon = $('<i class="material-icons right small">').text('restaurant_menu');
                 var cuisinesText = $('<span>').text(res.restaurant.cuisines);
                 var cuisines  = $('<p>').append(cuisinesIcon, cuisinesText)
@@ -91,36 +70,11 @@ function getRestaurant(lon, lat){
             col.append(card)
             
             $('#searchResults').append(col)
-            
-            
-
-            
-
-            
-            
-
-               })
-
-            } else {
+             })
+        } else {
                 alert('This city has no restaurants.')
             }
         }
     })
 }
 
-// function imgOption(imgAlternative){
-//     // var imgAlternative= $('<img>').attr("src", ./images/foodoption.jpg ).css({
-//     // "max-width": "270px",
-//     // "min-width": "250px",
-//     // "min-height": "199px",
-//     // "max-height": "200px"
-// if(res.restaurant.featured_image.length = false){
-//     var imgAlternative= $('<img>').attr("src", ./images/foodoption.jpg ", " + "alt", "a picture of several different foods on a table").css({
-//         "max-width": "270px",
-//         "min-width": "250px",
-//         "min-height": "199px",
-//         "max-height": "200px"
-//     return imgAlternative;
-// })
-
-// }

@@ -20,9 +20,13 @@ function getRecipes(searchValue){
                  var col =  $('<div class="col s6 m4 l3">').css({
                      "min-height": "459px",
                      "max-height": "460px",
-                     "overflow-y": "scroll"
+                                  
                  });
-                 var card = $('<div class="card blue-grey darken-1">');
+                 var card = $('<div class="card blue-grey darken-1">').css({
+                      "overflow": "hidden",
+                      "word-wrap": "break-word",
+                 });
+
                  var content = $('<div class="card-content white-text">');
                   var name = $('<span class="card-title">').text(data.results[i].title);
                   var img  = $('<a link>').text(data.results[i].sourceUrl).attr("href", data.results[i].sourceUrl).css({
@@ -30,11 +34,12 @@ function getRecipes(searchValue){
                       "min-width": "250px",
                       "min-height": "199px",
                       "max-height": "200px",
+                      "overflow": "hidden",
                   });
                   console.log(data.results[i].sourceUrl)
                  var cuisinesIcon = $('<i class="material-icons right small">').text('restaurant_menu');
-                 var cuisinesText = $('<span>').text(data.results[i].readyInMinutes);
-                 var cuisines  = $('<p>').append(cuisinesIcon, cuisinesText);
+                 var readyText = $('<span>').text("Ready In Minutes: " + data.results[i].readyInMinutes);
+                 var cuisines  = $('<p>').append(cuisinesIcon, readyText);
                  var action= $('<div class="card-action">');
              content.append(name, img, cuisines)
              card.append(content, action)
