@@ -20,7 +20,7 @@ function getRecipes(searchValue){
                  var col =  $('<div class="col s6 m4 l3">').css({
                      "min-height": "459px",
                      "max-height": "460px",
-                    //  "overflow-y": "scroll"
+                     "overflow-y": "scroll"
                  });
                  var card = $('<div class="card blue-grey darken-1">');
                  var content = $('<div class="card-content white-text">');
