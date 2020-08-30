@@ -40,6 +40,11 @@ So that I can have easy access to food options when on vaction.
 
 * Github: https://github.com/tomay91/Group-Project-1
 
+* The following image demonstrates the application functionality:
+
+![Home](./images/foodacation.png)
+
+![Search Query](./images/foodicationdemo.PNG)
 
 
 
