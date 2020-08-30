@@ -46,5 +46,31 @@ So that I can have easy access to food options when on vaction.
 
 ![Search Query](./images/foodacationdemo.PNG)
 
+# Project Team
 
+# Contact Information
+
+Malesha Jones
+
+* Github: [Jones-M12](https://github.com/Jones-M12) 
+
+* Email: malesharj@gmail.com 
+
+* LindedIn: [m-jones89](https://www.linkedin.com/in/m-jones89/)
+
+Travis Lovingood
+
+* Github: [TravisLovingood](https://github.com/TravisLovingood) 
+
+* Email: tclovingood01@gmail.com 
+
+* LindedIn: [travis-lovingood-8868101a7](https://www.linkedin.com/in/travis-lovingood-8868101a7/)
+
+Thomas O'Connell
+
+* Github: [tomay19](https://github.com/TravisLovingood) 
+
+* Email: tclovingood01@gmail.com 
+
+* LindedIn: [travis-lovingood-8868101a7](https://www.linkedin.com/in/travis-lovingood-8868101a7/)
 
