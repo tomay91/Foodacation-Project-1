@@ -44,7 +44,7 @@ So that I can have easy access to food options when on vaction.
 
 ![Home](./images/foodacation.png)
 
-![Search Query](./images/foodicationdemo.PNG)
+![Search Query](./images/foodacationdemo.PNG)
 
 
 
