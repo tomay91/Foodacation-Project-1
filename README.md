@@ -70,7 +70,16 @@ Thomas O'Connell
 
 * Github: [tomay19](https://github.com/TravisLovingood) 
 
-* Email: tclovingood01@gmail.com 
+* Email: tomay91@gmail.com
 
-* LindedIn: [travis-lovingood-8868101a7](https://www.linkedin.com/in/travis-lovingood-8868101a7/)
+* LindedIn: [thomas-fiore-o-connell-9958a721](https://www.linkedin.com/in/thomas-fiore-o-connell-9958a721/)
+
+Dilshan Opatha
+
+* Github: [dopatha2020](https://github.com/dopatha2020) 
+
+* Email: dopatha@nc.rr.com
+
+* LindedIn: [dilshan-opatha-266b191b5](https://www.linkedin.com/in/dilshan-opatha-266b191b5/)
+
 
