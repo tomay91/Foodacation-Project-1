@@ -48,7 +48,6 @@ So that I can have easy access to food options when on vaction.
 
 # Project Team
 
-# Contact Information
 
 Malesha Jones
 
