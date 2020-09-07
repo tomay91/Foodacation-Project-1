@@ -42,9 +42,27 @@ So that I can have easy access to food options when on vacation.
 
 * The following image demonstrates the application functionality:
 
-![Home](./images/foodacation.png)
+* Home screen starts with restaurant search
 
-![Search Query](./images/foodacationdemo.png)
+* Enter city location 
+
+* Click Submit
+
+* Results display on the right side of the page
+
+* Click Recipes link to search for recipes
+ 
+![Home](./images/Foodacation-location.gif)
+
+* Input food into input field
+
+* Click Submit 
+
+* Recipe results will display on the right
+
+* Hover over link and select open in new tab to see recipe information
+
+![Search Query](./images/foodacation-recipes.gif)
 
 # Project Team
 
