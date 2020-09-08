@@ -1,4 +1,4 @@
-# Foodication
+# Foodacation
 [![Generic badge](https://img.shields.io/badge/Project-1.1.0-RED.svg)](https://shields.io/)
 
 Creating an application that looks up restaurants according to your area. Or recipes according to your preference. 
@@ -8,8 +8,8 @@ The user will enter a city and get info on Restaurants or they can navigate to g
 
 # User Story
 AS a USER 
-I WANT to look for receipes if I want to eat in or search nearby resturants.
-So that I can have easy access to food options when on vaction.
+I WANT to look for recipes if I want to eat in or search nearby restaurants.
+So that I can have easy access to food options when on vacation.
 
 # Concept & Motivation
 
@@ -22,7 +22,7 @@ So that I can have easy access to food options when on vaction.
 
 * Spoonacular API
 
-* CSS, HTML, JQuery.
+* CSS, HTML, jQuery.
 
 * Materialize
 
@@ -38,39 +38,82 @@ So that I can have easy access to food options when on vaction.
 
 * Deployed Version: https://tomay91.github.io/Foodacation-Project-1/
 
-* Github: https://github.com/tomay91/Group-Project-1
+* GitHub: https://github.com/tomay91/Group-Project-1
 
 * The following image demonstrates the application functionality:
 
-![Home](./images/foodacation.png)
+* Home screen starts with restaurant search
 
-![Search Query](./images/foodacationdemo.PNG)
+* Enter city location 
+
+* Click Submit
+
+* Results display on the right side of the page
+
+* Click Recipes link to search for recipes
+ 
+![Home](./images/Foodacation-location.gif)
+
+* Input food into input field
+
+* Click Submit 
+
+* Recipe results will display on the right
+
+* Hover over link and select open in new tab to see recipe information
+
+![Search Query](./images/foodacation-recipes.gif)
 
 # Project Team
 
-# Contact Information
 
 Malesha Jones
 
-* Github: [Jones-M12](https://github.com/Jones-M12) 
+* GitHub: [Jones-M12](https://github.com/Jones-M12) 
 
 * Email: malesharj@gmail.com 
 
-* LindedIn: [m-jones89](https://www.linkedin.com/in/m-jones89/)
+* LinkedIn: [m-jones89](https://www.linkedin.com/in/m-jones89/)
 
 Travis Lovingood
 
-* Github: [TravisLovingood](https://github.com/TravisLovingood) 
+* GitHub: [TravisLovingood](https://github.com/TravisLovingood) 
 
 * Email: tclovingood01@gmail.com 
 
-* LindedIn: [travis-lovingood-8868101a7](https://www.linkedin.com/in/travis-lovingood-8868101a7/)
+* LinkedIn: [travis-lovingood-8868101a7](https://www.linkedin.com/in/travis-lovingood-8868101a7/)
 
 Thomas O'Connell
 
-* Github: [tomay19](https://github.com/TravisLovingood) 
+* GitHub: [tomay19](https://github.com/TravisLovingood) 
 
-* Email: tclovingood01@gmail.com 
+* Email: tomay91@gmail.com
 
-* LindedIn: [travis-lovingood-8868101a7](https://www.linkedin.com/in/travis-lovingood-8868101a7/)
+* LinkedIn: [thomas-fiore-o-connell-9958a721](https://www.linkedin.com/in/thomas-fiore-o-connell-9958a721/)
+
+Dilshan Opatha
+
+* GitHub: [dopatha2020](https://github.com/dopatha2020) 
+
+* Email: dopatha@nc.rr.com
+
+* LinkedIn: [dilshan-opatha-266b191b5](https://www.linkedin.com/in/dilshan-opatha-266b191b5/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
